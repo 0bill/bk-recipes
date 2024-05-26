@@ -1,13 +1,11 @@
 name: Demo 1
 
 on:
-  schedule:
-    - cron: '*/1 * * * *'  # Runs every 2 minutes
-
+  push:
+  
 jobs:
-  save-webpage:
+  test-name:
     runs-on: ubuntu-latest  # Replace with your preferred runner
-
     steps:
       - uses: actions/checkout@v4
         with:
