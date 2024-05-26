@@ -14,10 +14,8 @@ jobs:
           fetch-depth: 0
       - name: Update Changelog
         run: |
-          curl -o git-chglog -L https://github.com/git-chglog/git-chglog/releases/download/0.9.1/git-chglog_linux_amd64
-          chmod u+x git-chglog
-          ./git-chglog -o CHANGELOG.md
-          rm git-chglog
+          now=$(date +'%Y-%m-%d')  # Generate date only (without time)
+          curl "http://worldtimeapi.org/api/timezone/Europe/London" > "webpage_$now"
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
