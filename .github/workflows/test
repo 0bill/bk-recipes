@@ -1,0 +1,15 @@
+name: Run test 1 minutes x
+
+on:
+  schedule:
+    - cron: '*/1 * * * *'  # Runs every 5 minutes
+  
+jobs:
+  test-name:
+    runs-on: ubuntu-latest  # Replace with your preferred runner
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update Changelog
+        run: |
+          now=$(date +'%Y-%m-%d')  # Generate date only (without time)
+          curl "http://worldtimeapi.org/api/timezone/Europe/London" > "webpage_$now"
