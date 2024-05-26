@@ -1,8 +1,8 @@
-name: Demo 1
+name: Run curl and save webpage every 2 minutes
 
-on: 
+on:
   schedule:
-    - cron: '*/1 * * * *'
+    - cron: '*/2 * * * *'  # Runs every 2 minutes
   
 jobs:
   test-name:
