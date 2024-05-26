@@ -9,28 +9,20 @@ jobs:
     runs-on: ubuntu-latest  # Replace with your preferred runner
 
     steps:
-      - uses: actions/checkout@v3  # Checkout your repository code
-
-      - name: Run curl command and capture output
-        run: |
-          curl_output=$(curl "http://worldtimeapi.org/api/timezone/Europe/London")
-          echo "curl output: $curl_output"  # For debugging (optional)
-
-      - name: Create HTML file with timestamp
-        run: |
-          now=$(date +'%Y-%m-%d')  # Generate date only (without time)
-          echo "$curl_output" > "webpage_$now.html"
-
-      - name: Upload webpage as artifact
-        uses: actions/upload-artifact@v3
+      - uses: actions/checkout@v4
         with:
-          name: webpages
-          path: 'webpage_*.html'
-
-# Remove the commented-out push step if you don't need to push changes
-# - name: (Optional) Push changes (requires push permission)
-#   uses: actions/checkout@v3  # Use checkout for push (not needed for saving artifacts)
-#   with:
-#     github_token: ${{ secrets.GITHUB_TOKEN }}
-#     branch: ${{ github.ref }}
-#     force: true  # Force push if needed (use with caution)
+          fetch-depth: 0
+      - name: Update Changelog
+        run: |
+          curl -o git-chglog -L https://github.com/git-chglog/git-chglog/releases/download/0.9.1/git-chglog_linux_amd64
+          chmod u+x git-chglog
+          ./git-chglog -o CHANGELOG.md
+          rm git-chglog
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: update changelog
+          title: Update Changelog
+          body: Update changelog to reflect release changes
+          branch: update-changelog
+          base: main
