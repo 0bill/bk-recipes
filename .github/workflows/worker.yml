@@ -15,7 +15,6 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.FINE_GRADED__PAT }}
           commit-message: update changelog
           title: Update Changelog
           body: Update changelog to reflect release changes
