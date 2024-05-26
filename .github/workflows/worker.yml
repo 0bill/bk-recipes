@@ -1,8 +1,8 @@
-name: Run curl and save webpage every 5 minutes
+name: Run curl and save webpage every 2 minutes
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Runs every 5 minutes
+    - cron: '*/2 * * * *'  # Runs every 2 minutes
 
 jobs:
   save-webpage:
@@ -18,7 +18,7 @@ jobs:
 
       - name: Create HTML file with timestamp
         run: |
-          now=$(date +'%Y-%m-%d_%H-%M-%S')
+          now=$(date +'%Y-%m-%d')  # Generate date only (without time)
           echo "$curl_output" > "webpage_$now.html"
 
       - name: Upload webpage as artifact
@@ -27,9 +27,10 @@ jobs:
           name: webpages
           path: 'webpage_*.html'
 
-      - name: (Optional) Push changes (requires push permission)
-        uses: ad-action/git-push@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
-          force: true  # Force push if needed (use with caution)
+# Remove the commented-out push step if you don't need to push changes
+# - name: (Optional) Push changes (requires push permission)
+#   uses: actions/checkout@v3  # Use checkout for push (not needed for saving artifacts)
+#   with:
+#     github_token: ${{ secrets.GITHUB_TOKEN }}
+#     branch: ${{ github.ref }}
+#     force: true  # Force push if needed (use with caution)
