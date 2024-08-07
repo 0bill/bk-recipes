@@ -1,8 +1,9 @@
-name: Run curl and save webpage every 5 minutes final
+name: 5 minutes final + disp
 
 on:
   schedule:
     - cron: '*/5 * * * *'
+  workflow_dispatch:
 
 jobs:
   test-name:
