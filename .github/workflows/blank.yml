@@ -1,18 +1,21 @@
-name: Run curl and save webpage every 3 minutes xd
+name: Run curl and save webpage every 3 minutes
 
 on:
   schedule:
-    - cron: '*/3 * * * *'  # Runs every 5 minutes
+    - cron: '*/5 * * * *'
 
 jobs:
   test-name:
-    runs-on: ubuntu-latest  # Replace with your preferred runner
+    runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
       - name: Update Changelog
         run: |
           now=$(date +'%Y-%m-%d')  # Generate date only (without time)
           curl "http://worldtimeapi.org/api/timezone/Europe/London" > "webpage_$now"
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
