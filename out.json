@@ -1,0 +1,745 @@
+{
+  "trolleyContents": {
+    "type": "trolleyContents",
+    "params": {},
+    "hash": "5850149515847807",
+    "data": null
+  },
+  "search": {
+    "type": "search",
+    "params": {
+      "query": {
+        "query": "Lowicz",
+        "page": "1"
+      }
+    },
+    "data": {
+      "query": "Lowicz",
+      "results": {
+        "pageInformation": {
+          "totalCount": 7,
+          "pageNo": 1,
+          "count": 7,
+          "pageSize": 24,
+          "matchType": "exact",
+          "offset": 0,
+          "query": {
+            "searchTerm": "Lowicz",
+            "actualTerm": "lowicz"
+          }
+        },
+        "facetLists": [
+          {
+            "category": "Dietary",
+            "categoryId": "dietaries",
+            "facets": [
+              {
+                "facetId": "Halal",
+                "facetName": "Halal",
+                "binCount": 7,
+                "isSelected": false
+              },
+              {
+                "facetId": "Lacto-vegetarian",
+                "facetName": "Lacto-vegetarian",
+                "binCount": 7,
+                "isSelected": false
+              },
+              {
+                "facetId": "No egg",
+                "facetName": "No egg",
+                "binCount": 7,
+                "isSelected": false
+              },
+              {
+                "facetId": "No gluten",
+                "facetName": "No gluten",
+                "binCount": 7,
+                "isSelected": false
+              },
+              {
+                "facetId": "No soya",
+                "facetName": "No soya",
+                "binCount": 7,
+                "isSelected": false
+              },
+              {
+                "facetId": "Pescetarian",
+                "facetName": "Pescetarian",
+                "binCount": 7,
+                "isSelected": false
+              },
+              {
+                "facetId": "Vegetarian",
+                "facetName": "Vegetarian",
+                "binCount": 7,
+                "isSelected": false
+              },
+              {
+                "facetId": "Low salt",
+                "facetName": "Low salt",
+                "binCount": 6,
+                "isSelected": false
+              },
+              {
+                "facetId": "Low fat",
+                "facetName": "Low fat",
+                "binCount": 5,
+                "isSelected": false
+              },
+              {
+                "facetId": "Low saturated fat",
+                "facetName": "Low saturated fat",
+                "binCount": 5,
+                "isSelected": false
+              },
+              {
+                "facetId": "Low sugar",
+                "facetName": "Low sugar",
+                "binCount": 4,
+                "isSelected": false
+              },
+              {
+                "facetId": "No lactose",
+                "facetName": "No lactose",
+                "binCount": 3,
+                "isSelected": false
+              },
+              {
+                "facetId": "No milk",
+                "facetName": "No milk",
+                "binCount": 3,
+                "isSelected": false
+              },
+              {
+                "facetId": "Ovo-vegetarian",
+                "facetName": "Ovo-vegetarian",
+                "binCount": 3,
+                "isSelected": false
+              },
+              {
+                "facetId": "Vegan",
+                "facetName": "Vegan",
+                "binCount": 3,
+                "isSelected": false
+              },
+              {
+                "facetId": "Sugar free",
+                "facetName": "Sugar free",
+                "binCount": 1,
+                "isSelected": false
+              }
+            ]
+          },
+          {
+            "category": "Product Source",
+            "categoryId": "productSource",
+            "facets": [
+              {
+                "facetId": "Ghs",
+                "facetName": "Ghs",
+                "binCount": 7,
+                "isSelected": false
+              },
+              {
+                "facetId": "MarketplaceOnly",
+                "facetName": "MarketplaceOnly",
+                "binCount": 0,
+                "isSelected": false
+              },
+              {
+                "facetId": "GhsAndMarketplace",
+                "facetName": "GhsAndMarketplace",
+                "binCount": 7,
+                "isSelected": true
+              }
+            ]
+          },
+          {
+            "category": "New",
+            "categoryId": "new",
+            "facets": [
+              {
+                "facetId": "new",
+                "facetName": "New",
+                "binCount": 0,
+                "isSelected": false
+              }
+            ]
+          },
+          {
+            "category": "Promotion",
+            "categoryId": "offers",
+            "facets": [
+              {
+                "facetId": "offers",
+                "facetName": "Special Offers",
+                "binCount": 2,
+                "isSelected": false
+              }
+            ]
+          },
+          {
+            "category": "Department",
+            "categoryId": "department",
+            "facets": [
+              {
+                "facetId": "World Foods",
+                "facetName": "World Foods",
+                "binCount": 7,
+                "isSelected": false
+              },
+              {
+                "facetId": "Jams, Sweet & Savoury Spreads",
+                "facetName": "Jams, Sweet & Savoury Spreads",
+                "binCount": 1,
+                "isSelected": false
+              }
+            ]
+          },
+          {
+            "category": "Brand",
+            "categoryId": "brands",
+            "facets": [
+              {
+                "facetId": "LOWICZ",
+                "facetName": "LOWICZ",
+                "binCount": 7,
+                "isSelected": false
+              }
+            ]
+          }
+        ],
+        "popFilters": {
+          "category": "Pop Filter",
+          "facets": [
+            {
+              "facetId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDSmFtcywlMjBTd2VldCUyMCYlMjBTYXZvdXJ5JTIwU3ByZWFkcyU3Q0phbXM=",
+              "facetName": "Jams",
+              "binCount": null,
+              "isSelected": false
+            },
+            {
+              "facetId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcyU3Q0Vhc3Rlcm4lMjBFdXJvcGVhbg==",
+              "facetName": "Eastern European",
+              "binCount": null,
+              "isSelected": false
+            }
+          ]
+        },
+        "options": {
+          "sortBy": [
+            "relevance",
+            "price-ascending",
+            "price-descending"
+          ]
+        },
+        "productItems": [
+          {
+            "promotions": [
+              {
+                "promotionId": "91622633",
+                "promotionType": null,
+                "startDate": "2025-02-19T00:00:00Z",
+                "endDate": "2025-03-19T00:00:00Z",
+                "unitSellingInfo": "£0.35/100ml",
+                "offerText": "£1.40 Clubcard Price",
+                "price": {
+                  "beforeDiscount": null,
+                  "afterDiscount": 2
+                },
+                "attributes": [
+                  "CLUBCARD_PRICING"
+                ]
+              }
+            ],
+            "isSponsoredProduct": false,
+            "isWhyNotTry": false,
+            "product": {
+              "typename": "ProductType",
+              "context": null,
+              "id": "263204408",
+              "modelMetadata": null,
+              "gtin": "05900397737594",
+              "adId": null,
+              "baseProductId": "61934991",
+              "title": "Lowicz Raspberry Syrup 400Ml",
+              "seller": null,
+              "brandName": "LOWICZ",
+              "shortDescription": null,
+              "defaultImageUrl": "https://digitalcontent.api.tesco.com/v2/media/ghs/2ef9b723-a1c0-4e7f-984e-f896dee72374/753361d8-9c97-408f-bdb5-33fd6a79b1ed_986445648.jpeg?h=225&w=225",
+              "superDepartmentId": "b;Rm9vZCUyMEN1cGJvYXJk",
+              "superDepartmentName": "Food Cupboard",
+              "departmentId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcw==",
+              "departmentName": "World Foods",
+              "aisleId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcyU3Q0Vhc3Rlcm4lMjBFdXJvcGVhbg==",
+              "aisleName": "Eastern European",
+              "shelfId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcyU3Q0Vhc3Rlcm4lMjBFdXJvcGVhbiU3Q1BvbGlzaCUyMEp1aWNlJTIwJiUyMERyaW5rcw==",
+              "shelfName": "Polish Juice & Drinks",
+              "displayType": "Quantity",
+              "productType": "SingleProduct",
+              "charges": [],
+              "averageWeight": 0,
+              "bulkBuyLimit": 12,
+              "maxQuantityAllowed": 12,
+              "groupBulkBuyLimit": 12,
+              "bulkBuyLimitMessage": "You are able to buy a maximum of 12 of this group of items",
+              "bulkBuyLimitGroupId": "G00000035",
+              "timeRestrictedDelivery": null,
+              "restrictedDelivery": null,
+              "isForSale": true,
+              "isInFavourites": null,
+              "isNew": false,
+              "isRestrictedOrderAmendment": null,
+              "status": "AvailableForSale",
+              "maxWeight": 0,
+              "minWeight": 0,
+              "increment": 0,
+              "details": {
+                "components": [
+                  {
+                    "isLowEverydayPricing": false
+                  }
+                ]
+              },
+              "catchWeightList": null,
+              "reviews": {
+                "stats": {
+                  "noOfReviews": 18,
+                  "overallRating": 4.9,
+                  "overallRatingRange": 5
+                }
+              },
+              "restrictions": [],
+              "price": 2,
+              "unitPrice": 0.5,
+              "unitOfMeasure": "100ml",
+              "substitutions": []
+            }
+          },
+          {
+            "promotions": [
+              {
+                "promotionId": "91622632",
+                "promotionType": null,
+                "startDate": "2025-02-19T00:00:00Z",
+                "endDate": "2025-03-19T00:00:00Z",
+                "unitSellingInfo": "£0.35/100ml",
+                "offerText": "£1.40 Clubcard Price",
+                "price": {
+                  "beforeDiscount": null,
+                  "afterDiscount": 2
+                },
+                "attributes": [
+                  "CLUBCARD_PRICING"
+                ]
+              }
+            ],
+            "isSponsoredProduct": false,
+            "isWhyNotTry": false,
+            "product": {
+              "typename": "ProductType",
+              "context": null,
+              "id": "309169045",
+              "modelMetadata": null,
+              "gtin": "05900397737709",
+              "adId": null,
+              "baseProductId": "89437966",
+              "title": "Lowicz Syrup Cherry Flavour 400Ml",
+              "seller": null,
+              "brandName": "LOWICZ",
+              "shortDescription": null,
+              "defaultImageUrl": "https://digitalcontent.api.tesco.com/v2/media/ghs/a18ea470-ce87-42d3-8799-2b2c29c4c252/930f7fdd-9ef4-42cc-8456-897a11d874c3_28120361.jpeg?h=225&w=225",
+              "superDepartmentId": "b;Rm9vZCUyMEN1cGJvYXJk",
+              "superDepartmentName": "Food Cupboard",
+              "departmentId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcw==",
+              "departmentName": "World Foods",
+              "aisleId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcyU3Q0Vhc3Rlcm4lMjBFdXJvcGVhbg==",
+              "aisleName": "Eastern European",
+              "shelfId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcyU3Q0Vhc3Rlcm4lMjBFdXJvcGVhbiU3Q1BvbGlzaCUyMEp1aWNlJTIwJiUyMERyaW5rcw==",
+              "shelfName": "Polish Juice & Drinks",
+              "displayType": "Quantity",
+              "productType": "SingleProduct",
+              "charges": [],
+              "averageWeight": 0,
+              "bulkBuyLimit": 12,
+              "maxQuantityAllowed": 12,
+              "groupBulkBuyLimit": 12,
+              "bulkBuyLimitMessage": "You are able to buy a maximum of 12 of this group of items",
+              "bulkBuyLimitGroupId": "G00000035",
+              "timeRestrictedDelivery": null,
+              "restrictedDelivery": null,
+              "isForSale": true,
+              "isInFavourites": null,
+              "isNew": false,
+              "isRestrictedOrderAmendment": null,
+              "status": "AvailableForSale",
+              "maxWeight": 0,
+              "minWeight": 0,
+              "increment": 0,
+              "details": {
+                "components": [
+                  {
+                    "isLowEverydayPricing": false
+                  }
+                ]
+              },
+              "catchWeightList": null,
+              "reviews": {
+                "stats": {
+                  "noOfReviews": 10,
+                  "overallRating": 4.6,
+                  "overallRatingRange": 5
+                }
+              },
+              "restrictions": [],
+              "price": 2,
+              "unitPrice": 0.5,
+              "unitOfMeasure": "100ml",
+              "substitutions": []
+            }
+          },
+          {
+            "promotions": [],
+            "isSponsoredProduct": false,
+            "isWhyNotTry": false,
+            "product": {
+              "typename": "ProductType",
+              "context": null,
+              "id": "264640834",
+              "modelMetadata": null,
+              "gtin": "05900120070059",
+              "adId": null,
+              "baseProductId": "63999311",
+              "title": "Lowicz Twarog Curd Cheese 250G",
+              "seller": null,
+              "brandName": "LOWICZ",
+              "shortDescription": null,
+              "defaultImageUrl": "https://digitalcontent.api.tesco.com/v2/media/ghs/e1d1fbf7-97e1-4c8c-9a13-f0a3350a4da2/356a6562-5fc6-408b-a1cb-8623a8a12cf1.jpeg?h=225&w=225",
+              "superDepartmentId": "b;Rm9vZCUyMEN1cGJvYXJk",
+              "superDepartmentName": "Food Cupboard",
+              "departmentId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcw==",
+              "departmentName": "World Foods",
+              "aisleId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcyU3Q0Vhc3Rlcm4lMjBFdXJvcGVhbg==",
+              "aisleName": "Eastern European",
+              "shelfId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcyU3Q0Vhc3Rlcm4lMjBFdXJvcGVhbiU3Q1BvbGlzaCUyMENoZWVzZSwlMjBEYWlyeSUyMCYlMjBDaGVlc2UlMjBEdW1wbGluZ3M=",
+              "shelfName": "Polish Cheese, Dairy & Cheese Dumplings",
+              "displayType": "Quantity",
+              "productType": "SingleProduct",
+              "charges": [],
+              "averageWeight": 0,
+              "bulkBuyLimit": 25,
+              "maxQuantityAllowed": 25,
+              "groupBulkBuyLimit": 0,
+              "bulkBuyLimitMessage": "You are able to buy a maximum of 25 of this item",
+              "bulkBuyLimitGroupId": "G00000013",
+              "timeRestrictedDelivery": null,
+              "restrictedDelivery": null,
+              "isForSale": true,
+              "isInFavourites": null,
+              "isNew": false,
+              "isRestrictedOrderAmendment": null,
+              "status": "AvailableForSale",
+              "maxWeight": 0,
+              "minWeight": 0,
+              "increment": 0,
+              "details": {
+                "components": [
+                  {
+                    "isLowEverydayPricing": false
+                  }
+                ]
+              },
+              "catchWeightList": null,
+              "reviews": {
+                "stats": {
+                  "noOfReviews": 17,
+                  "overallRating": 4.5,
+                  "overallRatingRange": 5
+                }
+              },
+              "restrictions": [],
+              "price": 1.45,
+              "unitPrice": 5.8,
+              "unitOfMeasure": "kg",
+              "substitutions": []
+            }
+          },
+          {
+            "promotions": [],
+            "isSponsoredProduct": false,
+            "isWhyNotTry": false,
+            "product": {
+              "typename": "ProductType",
+              "context": null,
+              "id": "273698268",
+              "modelMetadata": null,
+              "gtin": "05900120070066",
+              "adId": null,
+              "baseProductId": "71824524",
+              "title": "Lowicz Fat Free Curd Cheese 250g",
+              "seller": null,
+              "brandName": "LOWICZ",
+              "shortDescription": null,
+              "defaultImageUrl": "https://digitalcontent.api.tesco.com/v2/media/ghs/a076ecbb-d8c9-45ce-827c-690e28225686/4401754f-0c7e-4942-be8f-a2a23851d3ff.jpeg?h=225&w=225",
+              "superDepartmentId": "b;Rm9vZCUyMEN1cGJvYXJk",
+              "superDepartmentName": "Food Cupboard",
+              "departmentId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcw==",
+              "departmentName": "World Foods",
+              "aisleId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcyU3Q0Vhc3Rlcm4lMjBFdXJvcGVhbg==",
+              "aisleName": "Eastern European",
+              "shelfId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcyU3Q0Vhc3Rlcm4lMjBFdXJvcGVhbiU3Q1BvbGlzaCUyMENoZWVzZSwlMjBEYWlyeSUyMCYlMjBDaGVlc2UlMjBEdW1wbGluZ3M=",
+              "shelfName": "Polish Cheese, Dairy & Cheese Dumplings",
+              "displayType": "Quantity",
+              "productType": "SingleProduct",
+              "charges": [],
+              "averageWeight": 0,
+              "bulkBuyLimit": 16,
+              "maxQuantityAllowed": 16,
+              "groupBulkBuyLimit": 0,
+              "bulkBuyLimitMessage": "You are able to buy a maximum of 16 of this item",
+              "bulkBuyLimitGroupId": "G00000241",
+              "timeRestrictedDelivery": null,
+              "restrictedDelivery": null,
+              "isForSale": true,
+              "isInFavourites": null,
+              "isNew": false,
+              "isRestrictedOrderAmendment": null,
+              "status": "AvailableForSale",
+              "maxWeight": 0,
+              "minWeight": 0,
+              "increment": 0,
+              "details": {
+                "components": [
+                  {
+                    "isLowEverydayPricing": false
+                  }
+                ]
+              },
+              "catchWeightList": null,
+              "reviews": {
+                "stats": {
+                  "noOfReviews": 1,
+                  "overallRating": 5,
+                  "overallRatingRange": 5
+                }
+              },
+              "restrictions": [],
+              "price": 1.45,
+              "unitPrice": 5.8,
+              "unitOfMeasure": "kg",
+              "substitutions": []
+            }
+          },
+          {
+            "promotions": [],
+            "isSponsoredProduct": false,
+            "isWhyNotTry": false,
+            "product": {
+              "typename": "ProductType",
+              "context": null,
+              "id": "290882116",
+              "modelMetadata": null,
+              "gtin": "05900120005013",
+              "adId": null,
+              "baseProductId": "80317783",
+              "title": "Lowicz Kefir Yogurt Drink 400G",
+              "seller": null,
+              "brandName": "LOWICZ",
+              "shortDescription": null,
+              "defaultImageUrl": "https://digitalcontent.api.tesco.com/v2/media/ghs/7b8443b0-45c0-448a-8684-8cf81adeb170/d60f0dc4-63bc-4af9-ac06-3422f825539a.jpeg?h=225&w=225",
+              "superDepartmentId": "b;Rm9vZCUyMEN1cGJvYXJk",
+              "superDepartmentName": "Food Cupboard",
+              "departmentId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcw==",
+              "departmentName": "World Foods",
+              "aisleId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcyU3Q0Vhc3Rlcm4lMjBFdXJvcGVhbg==",
+              "aisleName": "Eastern European",
+              "shelfId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcyU3Q0Vhc3Rlcm4lMjBFdXJvcGVhbiU3Q1BvbGlzaCUyMEp1aWNlJTIwJiUyMERyaW5rcw==",
+              "shelfName": "Polish Juice & Drinks",
+              "displayType": "Quantity",
+              "productType": "SingleProduct",
+              "charges": [],
+              "averageWeight": 0,
+              "bulkBuyLimit": 16,
+              "maxQuantityAllowed": 16,
+              "groupBulkBuyLimit": 0,
+              "bulkBuyLimitMessage": "You are able to buy a maximum of 16 of this item",
+              "bulkBuyLimitGroupId": "G00000021",
+              "timeRestrictedDelivery": null,
+              "restrictedDelivery": null,
+              "isForSale": true,
+              "isInFavourites": null,
+              "isNew": false,
+              "isRestrictedOrderAmendment": null,
+              "status": "AvailableForSale",
+              "maxWeight": 0,
+              "minWeight": 0,
+              "increment": 0,
+              "details": {
+                "components": [
+                  {
+                    "isLowEverydayPricing": false
+                  }
+                ]
+              },
+              "catchWeightList": null,
+              "reviews": {
+                "stats": {
+                  "noOfReviews": 38,
+                  "overallRating": 3.7,
+                  "overallRatingRange": 5
+                }
+              },
+              "restrictions": [],
+              "price": 0.9,
+              "unitPrice": 0.22,
+              "unitOfMeasure": "100g",
+              "substitutions": []
+            }
+          },
+          {
+            "promotions": [],
+            "isSponsoredProduct": false,
+            "isWhyNotTry": false,
+            "product": {
+              "typename": "ProductType",
+              "context": null,
+              "id": "265833599",
+              "modelMetadata": null,
+              "gtin": "05900397010444",
+              "adId": null,
+              "baseProductId": "65162019",
+              "title": "Lowicz Plum Butter Jam 290G",
+              "seller": null,
+              "brandName": "LOWICZ",
+              "shortDescription": null,
+              "defaultImageUrl": "https://digitalcontent.api.tesco.com/v2/media/ghs/753390a3-0c37-4bb8-b8f9-ced97acff95c/d0ff2819-d9ec-449d-a04e-eec5ec64ac84_2119912131.jpeg?h=225&w=225",
+              "superDepartmentId": "b;Rm9vZCUyMEN1cGJvYXJk",
+              "superDepartmentName": "Food Cupboard",
+              "departmentId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcw==",
+              "departmentName": "World Foods",
+              "aisleId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcyU3Q0Vhc3Rlcm4lMjBFdXJvcGVhbg==",
+              "aisleName": "Eastern European",
+              "shelfId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcyU3Q0Vhc3Rlcm4lMjBFdXJvcGVhbiU3Q1BvbGlzaCUyMEluZ3JlZGllbnRz",
+              "shelfName": "Polish Ingredients",
+              "displayType": "Quantity",
+              "productType": "SingleProduct",
+              "charges": [],
+              "averageWeight": 0,
+              "bulkBuyLimit": 25,
+              "maxQuantityAllowed": 25,
+              "groupBulkBuyLimit": 0,
+              "bulkBuyLimitMessage": "You are able to buy a maximum of 25 of this item",
+              "bulkBuyLimitGroupId": "G00000013",
+              "timeRestrictedDelivery": null,
+              "restrictedDelivery": null,
+              "isForSale": true,
+              "isInFavourites": null,
+              "isNew": false,
+              "isRestrictedOrderAmendment": null,
+              "status": "AvailableForSale",
+              "maxWeight": 0,
+              "minWeight": 0,
+              "increment": 0,
+              "details": {
+                "components": [
+                  {
+                    "isLowEverydayPricing": false
+                  }
+                ]
+              },
+              "catchWeightList": null,
+              "reviews": {
+                "stats": {
+                  "noOfReviews": 51,
+                  "overallRating": 4.4,
+                  "overallRatingRange": 5
+                }
+              },
+              "restrictions": [],
+              "price": 2,
+              "unitPrice": 0.69,
+              "unitOfMeasure": "100g",
+              "substitutions": []
+            }
+          },
+          {
+            "promotions": [],
+            "isSponsoredProduct": false,
+            "isWhyNotTry": false,
+            "product": {
+              "typename": "ProductType",
+              "context": null,
+              "id": "307742994",
+              "modelMetadata": null,
+              "gtin": "05900120064591",
+              "adId": null,
+              "baseProductId": "88628310",
+              "title": "Lowicz Kashkaval Cheese 300G",
+              "seller": null,
+              "brandName": "LOWICZ",
+              "shortDescription": null,
+              "defaultImageUrl": "https://digitalcontent.api.tesco.com/v2/media/ghs/19bf2f3c-970e-460f-835d-5dc476d85b06/1f06b5c8-ba5c-4018-838e-3c930af01a3d_1241157415.jpeg?h=225&w=225",
+              "superDepartmentId": "b;Rm9vZCUyMEN1cGJvYXJk",
+              "superDepartmentName": "Food Cupboard",
+              "departmentId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcw==",
+              "departmentName": "World Foods",
+              "aisleId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcyU3Q0Vhc3Rlcm4lMjBFdXJvcGVhbg==",
+              "aisleName": "Eastern European",
+              "shelfId": "b;Rm9vZCUyMEN1cGJvYXJkJTdDV29ybGQlMjBGb29kcyU3Q0Vhc3Rlcm4lMjBFdXJvcGVhbiU3Q1BvbGlzaCUyMENoZWVzZSwlMjBEYWlyeSUyMCYlMjBDaGVlc2UlMjBEdW1wbGluZ3M=",
+              "shelfName": "Polish Cheese, Dairy & Cheese Dumplings",
+              "displayType": "Quantity",
+              "productType": "SingleProduct",
+              "charges": [],
+              "averageWeight": 0,
+              "bulkBuyLimit": 25,
+              "maxQuantityAllowed": 25,
+              "groupBulkBuyLimit": 0,
+              "bulkBuyLimitMessage": "You are able to buy a maximum of 25 of this item",
+              "bulkBuyLimitGroupId": "G00000053",
+              "timeRestrictedDelivery": null,
+              "restrictedDelivery": null,
+              "isForSale": true,
+              "isInFavourites": null,
+              "isNew": false,
+              "isRestrictedOrderAmendment": null,
+              "status": "AvailableForSale",
+              "maxWeight": 0,
+              "minWeight": 0,
+              "increment": 0,
+              "details": {
+                "components": [
+                  {
+                    "isLowEverydayPricing": false
+                  }
+                ]
+              },
+              "catchWeightList": null,
+              "reviews": {
+                "stats": {
+                  "noOfReviews": 1,
+                  "overallRating": 5,
+                  "overallRatingRange": 5
+                }
+              },
+              "restrictions": [],
+              "price": 2.85,
+              "unitPrice": 9.5,
+              "unitOfMeasure": "kg",
+              "substitutions": []
+            }
+          }
+        ],
+        "supportsFlexiPageSize": true,
+        "experiments": []
+      },
+      "pageTitle": "Results for “Lowicz”",
+      "canonicalUrl": "https://www.tesco.com/groceries/",
+      "robots": "index",
+      "multiSearchPage": null,
+      "structuredData": "[{\"@context\":\"http://schema.org\",\"@type\":\"Corporation\",\"url\":\"https://www.tesco.com/groceries\",\"contactPoint\":[{\"@type\":\"ContactPoint\",\"telephone\":\"+44-0800 323 4040\",\"areaServed\":\"UK\",\"contactType\":\"customer service\",\"availableLanguage\":\"English\",\"contactOption\":\"TollFree\"}]},{\"@context\":\"http://schema.org\",\"@type\":\"WebSite\",\"url\":\"https://www.tesco.com/groceries\",\"name\":\"Tesco Groceries\"},{\"@context\":\"http://schema.org/\",\"@type\":\"ItemList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"url\":\"https://www.tesco.com/groceries/en-GB/products/263204408\"},{\"@type\":\"ListItem\",\"position\":2,\"url\":\"https://www.tesco.com/groceries/en-GB/products/309169045\"},{\"@type\":\"ListItem\",\"position\":3,\"url\":\"https://www.tesco.com/groceries/en-GB/products/264640834\"},{\"@type\":\"ListItem\",\"position\":4,\"url\":\"https://www.tesco.com/groceries/en-GB/products/273698268\"},{\"@type\":\"ListItem\",\"position\":5,\"url\":\"https://www.tesco.com/groceries/en-GB/products/290882116\"},{\"@type\":\"ListItem\",\"position\":6,\"url\":\"https://www.tesco.com/groceries/en-GB/products/265833599\"},{\"@type\":\"ListItem\",\"position\":7,\"url\":\"https://www.tesco.com/groceries/en-GB/products/307742994\"}]}]",
+      "type": "search",
+      "supportsFlexiPageSize": true
+    }
+  }
+}

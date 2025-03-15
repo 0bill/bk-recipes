@@ -9,6 +9,6 @@ csrf_token = match.group(1) if match else None
 match = re.search(r'_csrf=([^;]+)', request.headers['Set-Cookie'])
 csrf_cookie = match.group(1) if match else None
 
-request = get_search_results("milk", csrf_token, csrf_cookie)
+request = get_search_results("Lowicz", csrf_token, csrf_cookie)
 
 print(request.text)
