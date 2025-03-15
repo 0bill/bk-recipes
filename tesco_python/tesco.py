@@ -55,7 +55,7 @@ def get_search_results(query, csrf_token, csrf_cookie):
         'cookie': f'_csrf={csrf_cookie};',
         'origin': 'https://www.tesco.com',
         'pragma': 'no-cache',
-        'referer': 'https://www.tesco.com/groceries/en-GB/search?query=milk',
+        'referer': f'https://www.tesco.com/groceries/en-GB/search?query={query}',
         'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36',
         'x-csrf-token': csrf_token
         }
