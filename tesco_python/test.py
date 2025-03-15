@@ -1,39 +1,14 @@
-import requests
-import json
+from tesco import get_home_page, get_search_results
+import re
 
-url = "https://www.tesco.com/groceries/en-GB/resources"
+request = get_home_page()
 
-payload = json.dumps({
-  "resources": [
-    {
-      "type": "search",
-      "params": {
-        "query": {
-          "query": "Lowicz",
-          "page": "1"
-        }
-      }
-    }
-  ],
-  "sharedParams": {
-    "query": {}
-  },
-  "requiresAuthentication": False
-})
-headers = {
-  'authority': 'www.tesco.com',
-  'accept': 'application/json',
-  'accept-language': 'en-GB,en;q=0.9',
-  'cache-control': 'no-cache',
-  'content-type': 'application/json',
-  'cookie': '_csrf=2ripPMk9dl_jwQ-OjTPeAd3s;',
-  'origin': 'https://www.tesco.com',
-  'pragma': 'no-cache',
-  'referer': 'https://www.tesco.com/groceries/en-GB/search?query=milk',
-  'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36',
-  'x-csrf-token': 'AYsIwyRM-TqjjuIuZV3fgfJQyQCDgIbtuuUY'
-}
+match = re.search(r'"csrfToken":"([^"]+)"', request.text)
+csrf_token = match.group(1) if match else None
 
-response = requests.request("POST", url, headers=headers, data=payload)
+match = re.search(r'_csrf=([^;]+)', request.headers['Set-Cookie'])
+csrf_cookie = match.group(1) if match else None
 
-print(response.text)
+request = get_search_results("milk", csrf_token, csrf_cookie)
+
+print(request.text)
